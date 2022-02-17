@@ -14,7 +14,7 @@
 			<group targetFramework=".NETStandard2.1">
 				<dependency id="ConfigureAwaitChecker.Analyzer" version="5.0.0" exclude="Build,Analyzers" />
 				<dependency id="Microsoft.CodeAnalysis.NetAnalyzers" version="5.0.3" exclude="Build,Analyzers" />
-				<dependency id="Microsoft.CodeAnalysis.NetAnalyzers" version="4.2.8" exclude="Build,Analyzers" />
+				<dependency id="CryptoExchange.Net" version="4.2.8" exclude="Build,Analyzers" />
 			</group>
 		</dependencies>
 	</metadata>
