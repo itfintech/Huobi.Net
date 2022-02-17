@@ -12,7 +12,4 @@
     <tags>Huobi.Net</tags>
     <repository type="git" url="https://github.com/itfintech/Huobi.Net.git" />
   </metadata>
-  <files>
-	<file src="bin\Release\*.*" target="bin\Release\netstandard2.1" />
-  </files>
 </package>
