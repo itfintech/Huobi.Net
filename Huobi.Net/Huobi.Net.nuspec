@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Huobi.Net</id>
+    <version>0.0.0</version>
+    <authors>Huobi.Net</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/itfintech/Huobi.Net</projectUrl>
+    <description>Huobi.Net</description>
+    <tags>Huobi.Net</tags>
+    <repository type="git" url="https://github.com/itfintech/Huobi.Net.git" />
+  </metadata>
+</package>
