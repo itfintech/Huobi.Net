@@ -2,13 +2,13 @@
 
 namespace Huobi.Net.Objects.SocketObjects
 {
-    internal class HuobiRequest
+    public class HuobiRequest
     {
         [JsonIgnore]
         public string? Id { get; set; }
     }
 
-    internal class HuobiSocketRequest: HuobiRequest
+    public class HuobiSocketRequest: HuobiRequest
     {
         [JsonProperty("req")]
         public string Request { get; set; }
@@ -24,7 +24,7 @@ namespace Huobi.Net.Objects.SocketObjects
         }
     }
 
-    internal class HuobiAuthenticatedSubscribeRequest
+    public class HuobiAuthenticatedSubscribeRequest
     {
         [JsonProperty("action")]
         public string Action { get; set; }
@@ -38,7 +38,7 @@ namespace Huobi.Net.Objects.SocketObjects
         }
     }
 
-    internal class HuobiSubscribeRequest: HuobiRequest
+    public class HuobiSubscribeRequest: HuobiRequest
     {
         [JsonProperty("sub")]
         public string Topic { get; set; }
